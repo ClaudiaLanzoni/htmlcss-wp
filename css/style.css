@@ -5,8 +5,13 @@
 }
 
 body {
-    margin: 10px 100px;
+    margin: 10px 150px;
 }
+
+li {
+    display: inline-block;
+}
+
 
 .float-left {
     float: left;
@@ -52,10 +57,12 @@ body {
     clear: both;
 }
 
-.first-section {
-    height: 300px;
+.jumbotron {
+    height: 400px;
+    width: 100%;
     margin-bottom: 20px;
-    background-color: rgb(204, 248, 115);
+    background-image: url(../img/banner.jpg);
+    overflow: hidden;
 }
 
 .second-section {
@@ -65,10 +72,15 @@ body {
     margin-bottom: 5px;
 }
 
+.logo {
+    width: 10%;
+}
+
+
+
 #main-header {
     height: 70px;
     margin-bottom: 20px;
-    background-color: violet;
 }
 
 #main-footer {
