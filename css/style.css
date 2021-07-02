@@ -44,9 +44,19 @@ li {
     margin-left: 10px;
 }
 
+.second-aside-image {
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
+
 .middle-side {
     width: calc(60% - 20px);
     height: 300px;
+}
+
+.middle-side-image {
     background-image: url(../img/banner-2.jpg);
     background-size: cover;
     background-position: center;
@@ -101,6 +111,10 @@ li {
     height: 50%;
 }
 
+.heart-entity {
+    color: red;
+}
+
 #main-header {
     height: 70px;
     margin-bottom: 20px;
@@ -109,4 +123,6 @@ li {
 #main-footer {
     height: 40px;
     background-color:rgb(132, 52, 236);
+    text-align: center;
+    line-height: normal;
 }
