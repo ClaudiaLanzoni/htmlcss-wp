@@ -27,7 +27,6 @@ li {
 }
 
 .lower-segment {
-    display: inline-block;
     height: 300px;
     margin-bottom: 5px;
 }
